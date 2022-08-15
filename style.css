@@ -1,5 +1,28 @@
+ .TopBar {
+    display:flex;
+    list-style-type: none;
+justify-content: space-between;
+align-items: center;
+background-color: black;
+color: yellow;
+}
 
+ ul{
+    display: flex;
+list-style-type: none;
+justify-content: flex-end;
+}
 
-p {
-    color: red;
+.TopBar ul li{
+    margin-right: 1em;
+color: white;
+}
+
+.TopBar h1 {
+    color: white;
+}
+.SplashScreen{
+    background-image: url(images/mejores-playas-del-algarve.jpg)
+    ;
+    height: 80vh;
 }
